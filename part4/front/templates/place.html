@@ -5,48 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Place Details</title>
     <link rel="stylesheet" href="../style/styles.css">
-	<link rel="icon" type="image/x-icon" href="../style/images/icon.png">
+    <link rel="icon" type="image/x-icon" href="../style/images/icon.png">
 </head>
 <body>
-	<header>
-		<img src="images/logo.png" class="logo" alt="logo">
-		<nav>
-			<a href="index.html">Home</a>
+    <header>
+        <img src="../images/logo.png" class="logo" alt="logo">
+        <nav>
+            <a href="index.html">Home</a>
             <a href="login.html" class="login-button" id="login-link">Login</a>
         </nav>
-	</header>
+    </header>
     <main>
+
         <section id="place-details">
-            <h1> Place details</h1>
-			<div class="place-info">
-				<p>Host</p>
-				<p>Price</p>
-				<p>Description</p>
-				<p>Amenities</p>
-			</div>
+
         </section>
+
         <section id="reviews">
-			<h1>Reviews</h1>
-            <div class="review-card">
-				<h4>User name</h4>
-				<p>Description</p>
-				<p>Rating</p>
-			</div>
+            <h2>Reviews</h2>
+            <div id="review-list">
+
+            </div>
         </section>
-        <section id="add-review">
+
+        <section id="add-review" style="display: none;">
             <h2>Add a Review</h2>
             <form id="review-form">
                 <label for="review-text">Review:</label>
                 <textarea id="review-text" name="review-text" required></textarea>
-                
                 <button type="submit">Submit</button>
-				<a href="add_review.html">
-					<button type="button">Review</button>
-				</a>
             </form>
         </section>
     </main>
-	<footer> all rights reserved </footer>
+    <footer>All rights reserved</footer>
     <script src="../style/scripts.js"></script>
 </body>
 </html>
